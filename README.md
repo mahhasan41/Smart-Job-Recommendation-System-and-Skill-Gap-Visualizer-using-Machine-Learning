@@ -21,6 +21,7 @@ This project implements an **Intelligent Job Recommendation System** that integr
   * `matplotlib` / `plotly` (Visualization)
 * **Streamlit** – For the user interface.
 * **SQLite / JSON** – For storing user and job datasets.
+* **Dataset** - "https://www.kaggle.com/datasets/PromptCloudHQ/us-jobs-on-monstercom"
 
 ## 📂 Project Structure
 
