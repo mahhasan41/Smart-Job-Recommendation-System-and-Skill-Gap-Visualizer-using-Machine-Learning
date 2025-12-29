@@ -1,7 +1,7 @@
 import requests
 
-APP_ID = "13db5e2e"  # your Adzuna App ID
-APP_KEY = "7627ce049a9510af7c6843498553d8ce"  # your Adzuna App Key
+APP_ID = ""  # your Adzuna App ID
+APP_KEY = ""  # your Adzuna App Key
 
 url = "https://api.adzuna.com/v1/api/jobs/gb/search/1"  # 'gb' for UK, change to 'us', 'in', etc.
 
@@ -24,3 +24,4 @@ if response.status_code == 200:
 else:
     print("❌ Connection Failed:", response.status_code)
     print(response.text)
+
