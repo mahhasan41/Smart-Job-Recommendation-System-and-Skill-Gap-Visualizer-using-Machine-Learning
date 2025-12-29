@@ -48,6 +48,9 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
+### 4. Dataset link: https://www.kaggle.com/datasets/PromptCloudHQ/us-jobs-on-monstercom
+
+
 ## 🗄️ Database Setup
 
 ### 1. Create MySQL Database
@@ -176,16 +179,6 @@ SKILL_SET = {
 }
 ```
 
-## 🔌 API Integration (Optional)
-
-The project includes `check.py` for testing Adzuna job API integration:
-
-```python
-APP_ID = "your_app_id"
-APP_KEY = "your_app_key"
-```
-
-To use live job data, sign up at [Adzuna API](https://developer.adzuna.com/) and update credentials.
 
 ## 🐛 Troubleshooting
 
@@ -225,8 +218,4 @@ This project is open source and available for educational purposes.
 
 ## 👥 Author
 
-Created as a machine learning project for job recommendation and resume screening.
-
----
-
-**Note**: This is a demonstration project. For production use, implement additional security measures, error handling, and data validation.
+Md. Mahmudol Hasan
